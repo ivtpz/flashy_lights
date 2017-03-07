@@ -27,5 +27,5 @@ for i in range(10):
 	time.sleep(0.1)
 	GPIO.output(18,GPIO.LOW)
 	GPIO.output(16,GPIO.HIGH)
-	time.sleep(1.0)
+	time.sleep(0.5)
 	GPIO.output(16,GPIO.LOW)
