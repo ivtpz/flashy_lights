@@ -8,7 +8,7 @@ GPIO.setup(12,GPIO.OUT)
 GPIO.setup(23,GPIO.OUT)
 for i in range(5):
 	GPIO.output(18,GPIO.HIGH)
-	time.sleep(0.2)
+	time.sleep(0.1)
 	GPIO.output(18,GPIO.LOW)
 	GPIO.output(16,GPIO.HIGH)
 	time.sleep(0.1)
