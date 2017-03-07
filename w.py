@@ -2,8 +2,8 @@ import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-GPIO.setup(23.GPIO.OUT)
-GPIO.setup(16.GPIO.OUT)
+GPIO.setup(23,GPIO.OUT)
+GPIO.setup(16,GPIO.OUT)
 for i in range(20):
   GPIO.output(23, GPIO.HIGH)
   time.sleep(0.3)
