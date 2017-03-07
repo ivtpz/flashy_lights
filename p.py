@@ -4,6 +4,8 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO.setup(23,GPIO.OUT)
 GPIO.setup(16,GPIO.OUT)
+GPIO.setup(12,GPIO.OUT)
+GPIO.setup(18,GPIO.OUT)
 for i in range(3):
   GPIO.output(12, GPIO.HIGH)
   time.sleep(0.2)
